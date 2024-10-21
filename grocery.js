@@ -9,8 +9,12 @@ function grocerylistcreator() {
         buttoncontainer.appendChild(button); 
         button.addEventListener('click', strikethrough)
 }
+function displayPurchased(){
+    
+}
 
 function strikethrough() {
     var purchaseitem = document.getElementsByClassName("button")[0]
     purchaseitem.classList.add("buttonstrike")
 }
+
