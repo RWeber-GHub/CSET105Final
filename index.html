@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="grocery.css">
 </head>
 <body>
-    <div class="background">
-        <div class="page">
-            <button class="button" onclick="grocerylistcreator()"> Click to add an item </button>
-            <button class="button" onclick="displayPurchased()">Display Purchased</button>
-            <button class="button" onclick="displayAll()">Display All</button>
-            <button class="button" onclick="displayCart()">Display In Cart</button>
-        </div>
-    <div class="buttoncontainer"></div>
+    <button class="buttonitemadder" onclick="grocerylistcreator()"> Click to add an item </button>
+    <button class="displaypurchased" onclick="showpurchased()">Display Your Purchased Items Only</button>
+
+    <button class="displayunpurchased" onclick="showunpurchased()">Display Your Unpurchased Items Only</button>
+    <button class="displayall" onclick="showall()">Display All Items</button>
+
+    <div class="buttoncontainer">
+
+    </div>
     <script src="grocery.js"></script>
     </div>
 </body>
