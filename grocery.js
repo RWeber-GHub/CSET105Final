@@ -8,3 +8,6 @@ function grocerylistcreator() {
     button.innerHTML = item;
     buttoncontainer.appendChild(button); 
 }
+function displayPurchased(){
+    
+}
