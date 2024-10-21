@@ -18,8 +18,19 @@
 .buttoncontainer{
     max-height: 100%;
 }
-.button{
+.buttonitemadder{
     height: 200px;
     width: 200px;
     font-size: 20px;
+}
+.button{
+    height:100px;
+    width:200px;
+    font-size: 15px;
+}
+.buttonstrike{
+    height:100px;
+    width: 200px;
+    text-decoration: line-through;
+    font: size 15px;
 }
