@@ -53,10 +53,13 @@ function showunpurchased() {
         }
     }
 }
-
+function displayPurchased(){
+    
+}
 function showall() {
     var buttons = document.getElementsByClassName("button");
     for (let i = 0; i < buttons.length; i++){
         buttons[i].style.display = "block";
     }
 }
+
