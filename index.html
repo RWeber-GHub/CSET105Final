@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grocery List</title>
     <link rel="stylesheet" href="grocery.css">
 </head>
 <body>
-    <button class="buttonitemadder" onclick="grocerylistcreator()"> Click to add an item </button>
-    <button class="displaypurchased" onclick="showpurchased()">Display Your Purchased Items Only</button>
 
-    <button class="displayunpurchased" onclick="showunpurchased()">Display Your Unpurchased Items Only</button>
-    <button class="displayall" onclick="showall()">Display All Items</button>
-
+<div class="menu">
+    <button class="selector" id="buttonitemadder" onclick="grocerylistcreator()"> Click to add an item </button>
+    <button class="selector" id="displaypurchased" onclick="showpurchased()">Display Your Purchased Items Only</button>
+    <button class="selector" onclick="location.reload();">Reset</button>
+    <button class="selector" id="displayunpurchased" onclick="showunpurchased()">Display Your Unpurchased Items Only</button>
+    <button class="selector" id="displayall" onclick="showall()">Display All Items</button>
+</div>
     <div class="buttoncontainer">
-
+        
     </div>
     <script src="grocery.js"></script>
     </div>

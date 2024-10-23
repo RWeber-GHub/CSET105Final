@@ -16,9 +16,23 @@
     margin: auto;
 }
 .buttoncontainer{
-    max-height: 100%;
+    margin-top: 5%;
+    display:flex;
+    justify-content: center;
+    background: color rgb(45, 45, 45);
+    height: 50%;
+    width: 100%;
+    background-color: rgb(52, 62, 63);
+
 }
-.buttonitemadder{
+.menu{
+    justify-content: center;
+    width:100%;
+    max-height: 30%;
+    display:flex;
+    background-color: rgb(83, 92, 95);
+}
+.selector{
     height: 200px;
     width: 200px;
     font-size: 20px;
@@ -32,5 +46,5 @@
     height:100px;
     width: 200px;
     text-decoration: line-through;
-    font: size 15px;
+    font-size: 15px;
 }
